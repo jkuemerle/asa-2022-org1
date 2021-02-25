@@ -11,6 +11,18 @@
 
 <body>
     <h2>ASA Chat 1</h2>
+    <a id="liveagent_button_online_5735Y000000LRGK" href="javascript://Chat" style="display: none;" onclick="liveagent.startChat('5735Y000000LRGK')">Chat Now</a>
+    <div id="liveagent_button_offline_5735Y000000LRGK" style="display: none;">Chat Offline</div>
+    <script type="text/javascript">
+        if (!window._laq) {
+            window._laq = [];
+        }
+        window._laq.push(function() {
+            liveagent.showWhenOnline('5735Y000000LRGK', document.getElementById('liveagent_button_online_5735Y000000LRGK'));
+            liveagent.showWhenOffline('5735Y000000LRGK', document.getElementById('liveagent_button_offline_5735Y000000LRGK'));
+        });
+    </script>
+
 </body>
 
 </html>
